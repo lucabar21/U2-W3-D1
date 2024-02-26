@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>U2-W3-D1 OOP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Il tuo animale domestico</h1>
+    <form>
+      <div>
+        <label for="petName">Nome dell'animale</label>
+        <div class="input-div">
+          <input type="text" name="petName" id="petName" placeholder="Nome" />
+        </div>
+
+        <label for="ownerName">Nome del padrone</label>
+        <div class="input-div">
+          <input type="text" name="ownerName" id="ownerName" placeholder="Nome" />
+        </div>
+      </div>
+
+      <label for="species">Specie</label>
+      <div class="input-div">
+        <input type="text" name="species" id="species" placeholder="Es. Cane" />
+      </div>
+
+      <label for="breed">Razza</label>
+      <div class="input-div">
+        <input type="text" name="breed" id="breed" placeholder="Es. Beagle" />
+      </div>
+
+      <button type="submit" id="button">Invia</button>
+    </form>
+    <ul id="userData"></ul>
+    <script src="./index.js"></script>
+  </body>
+</html>
